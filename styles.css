@@ -131,6 +131,12 @@ hr {
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem;
   }
+
+  #project-date{
+    padding:0.2rem;
+    background-color:#FECACA;
+    border-radius:0.2rem;
+  }
   
   /* footer */
   .footer {
