@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
   --primary-color: #0f8b68;
@@ -9,7 +9,7 @@
 
 body {
   margin: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #fffbe9;
 }
 
@@ -31,132 +31,142 @@ hr {
 
 /* links */
 .link {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-  
-  }
-  
-  .link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    font-weight: 450;
-  
-  }
-  
-  .link-secondary {
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 0.5rem;
-  }
-  
-  /* lists  */
-  .list-non-bullet {
-    list-style: none;
-  }
-  
-  .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-  
-  }
-  
-  .ul {
-    padding-inline-start: 0;
-  }
-  
-  /* navigation */
-  .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 2.8rem;
-  }
-  
-  .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
-  }
-  
-  .navigation .nav-pills {
-    text-align: right;
-  
-  }
-  
-  .navigation .link {
-    color: white;
-  }
-  
-  .navigation .link-active {
-    font-weight: bold;
-  }
-  
-  /* header */
-  .hero {
-    padding: 1rem;
-  }
-  
-  .hero-img {
-    max-width: 400px;
-    padding-top: 3rem;
-    display: block;
-    margin: auto;
-  }
-  
-  .hero-heading {
-    padding-top: 1rem;
-    color: var(--pretty-pink);
-    text-align: center;
-  }
-  
-  .hero-heading .heading-inverted {
-    color: var(--primary-color);
-  }
-  
-  /* section */
-.section {
-    padding:2rem;
-  }
-  
-  .section h1 {
-    text-align: center;
-  
-  }
-  
-  .grey {
-    background-color: var(--good-grey);
-    border-top-left-radius:1rem;
-    border-top-right-radius:1rem;
-    border-bottom-left-radius:1rem;
-    border-bottom-right-radius:1rem;
-  }
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
 
-  #project-date{
-    padding:0.2rem;
-    background-color:#FECACA;
-    border-radius:0.2rem;
-  }
-  
-  /* footer */
-  .footer {
-    background-color: var(--primary-color);
-    margin-top: 4rem;
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 1.5rem;
-  }
-  
-  .footer-header {
-    font-weight: bold;
-    font-size: large;
-  }
-  
-  .footer .link {
-    color: white;
-  }
-  
-  .footer ul {
-    padding-inline-start: 0px;
-  }
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 450;
+
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+/* lists  */
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+
+}
+
+.ul {
+  padding-inline-start: 0;
+}
+
+/* navigation */
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 3rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  color: rgb(230, 172, 97);
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  font-size: 1.1rem;
+
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bolder;
+  color: rgb(230, 172, 97);
+}
+
+
+
+/* header */
+.hero {
+  padding: 1rem;
+}
+
+.hero-img {
+  max-width: 400px;
+  padding-top: 3rem;
+  display: block;
+  margin: auto;
+}
+
+.hero-heading {
+  padding-top: 1rem;
+  color: var(--pretty-pink);
+  text-align: center;
+}
+
+.hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+/* section */
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+
+}
+
+.grey {
+  background-color: var(--good-grey);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#project-date {
+  padding: 0.2rem;
+  background-color: #FECACA;
+  border-radius: 0.2rem;
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 2rem;
+}
+
+.footer a:hover {
+  color: rgb(230, 172, 97);
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
